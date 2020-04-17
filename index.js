@@ -3,7 +3,7 @@ const ytdl = require('ytdl-core');
 
 const client = new Discord.Client();
 
-client.login('Njk5MjQxOTk5NTc1ODEwMTEw.XpRipA.W25yl2G9DmVn1M0JATA1a08VgUs');
+client.login('SEU TOKEN');
 
 client.on('message', async (message) => {
     if(message.content.startsWith('!play ')) {
